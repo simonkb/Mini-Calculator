@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class MinCalculate {
     private double x,y;
-
+    private char op;
     public void setX(double x) {
         this.x = x;
     }
@@ -16,7 +16,6 @@ public class MinCalculate {
     public void setOp(char op) {
         this.op = op;
     }
-    private char op;
     ArrayList<Integer> delayList;
     ArrayList<Integer> sat;
     public MinCalculate(double x, double y, char op) {
